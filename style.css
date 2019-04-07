@@ -1,6 +1,5 @@
 :root {
   --red: #f44336;
-  --yellow: #ffeb3b;
   --blue: #2196f3;
 }
 
@@ -12,7 +11,7 @@
   padding: 5px;
 }
 
-.candy{
+.teams{
   border-radius:100%;
   height: 30px;
   width: 30px;
@@ -24,14 +23,10 @@
   margin:5px;
 }
 
-.yellow{
-  background-color: var(--yellow);
-}
-
-.blue{
-  background-color: var(--blue);
-}
-
-.red{
+.americanLeague{
   background-color: var(--red);
+}
+
+.nationalLeague{
+  background-color: var(--blue);
 }
